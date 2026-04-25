@@ -2,8 +2,8 @@ import React from "react";
 
 const Logos = () => {
   return (
-    <section className="w-full py-20">
-      <div className="flex gap-56 items-center w-full">
+    <section className="w-full py-12">
+      <div className="flex gap-56 items-center max-w-7xl mx-auto">
         <div className="flex-1">
           <p className="text-secondary leading-5 text-m">
             Backed by the best companies and visionary angles.
