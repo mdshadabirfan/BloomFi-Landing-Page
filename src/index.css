@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: bri;
+  src: url(./assets/fonts/bri.ttf);
+}
+@font-face {
+  font-family: inter;
+  src: url(./assets/fonts/inter.ttf);
+}
+@theme {
+  --color-primary: #050507;
+  --color-secondary: #434649;
+  --color-accent-main: #09163A;
+  --color-accent-hover: #09163ae8;
+  --color-bg: #F5F5F5;
+  --font-bri: bri, sans-serif; 
+  --font-inter: inter, sans-serif; 
+}
+
+body {
+  font-family: var(--font-bri);
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
+
